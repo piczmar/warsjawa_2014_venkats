@@ -1,0 +1,62 @@
+Creating Domain Specific Languages using Groovy
+Venkat Subramaniam (@venkat_s)
+venkats@agiledeveloper.com
+
+Use the browser, svn, or git-svn to access the code repository.
+Examples and Labs: https://www.agiledeveloper.com/svn/code/warsjawa2014/dslgroovy
+Userid: warsjawa2014
+password: happycoder
+
+Part 0:
+✓ What's a DSL?
+✓ Types of DSL
+  ✓ External
+    ✓ You have to parse and maintain the parser
+    ✓ You decide the syntax
+    ✓ Pretty good validate
+  ✓ Internal
+    ✓ You don't have to write a parse
+    ✓ Your syntax is limited to what the host language offers
+    ✓ Validation is hard
+✓ Characteristics of a DSL
+   ✓ Context
+   ✓ Fluency
+✓ What's needed in a host language
+   ✓ Low ceremony
+     ✓ is necessary but not sufficient
+   ✓ metaprogramming
+
+Part 1:
+✓ Groovy fluencies
+  ✓ optional parenthesis
+  ✓ optional dot
+  ✓ synthesize variables
+
+Exercise 1: Using Groovy Fluencies:
+
+Part 2:
+- DSLs using closures
+  - closures
+  - closure and delegate proving a context
+  - Using closure delegates to create a DSL
+
+Exercise 2: Using Groovy Closures for Fluency:
+
+Part 3:
+- Creating DSL using method injection
+  - metaClass and method injection
+  - adding methods
+  - adding properties
+
+Exercise 3: Using method injection:
+
+Part 4:
+- Creating DSL using method synthesis
+  - metaClass and method synthesis
+  - GroovyShell to evaluate script
+  - binding
+- Running DSL in a context
+
+Exercise 4: Using method synthesis:
+
+- Conclusion

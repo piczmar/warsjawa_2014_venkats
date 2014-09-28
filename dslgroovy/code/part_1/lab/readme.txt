@@ -1,0 +1,1 @@
+Edit sample.groovy so the given code works to produce the expected result.

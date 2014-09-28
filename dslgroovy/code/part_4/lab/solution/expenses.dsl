@@ -1,0 +1,10 @@
+train 20.25
+airfare 523.42
+cab 15.29
+meal 25.48
+cab 15.29
+meal 29.22
+cab 15.29
+cab 'a'
+meal 27.23
+train 20.25
